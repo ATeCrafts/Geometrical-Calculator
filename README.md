@@ -5,8 +5,9 @@ A calculator for basic geometrical calculations.
 1) Click on the green button labelled Code.
 2) Then click on Download ZIP in the drop-down menu.
 3) Once the file is downloaded, locate it and open the ZIP file.
-4) Inside of it will be a folder named Geometrical-Calculator, open that folder.
-5) Inside this folder, there will be a file named index.html, run that file in your browser and the calculator will work!
+4) From the ZIP file, extract the folder inside of it. 
+5) Open the folder and you will find a file named index.html.
+6) Run this file (make sure it is not index.js, but index.html)
 
 # Features
 As of Version 1.0, the current features include:
