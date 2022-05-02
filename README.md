@@ -2,7 +2,7 @@
 
 A calculator for basic geometrical calculations (area, perimeter, volume and surface area of shapes).
 
-Installation:
+# Installation:
 1) Click on the green button labelled Code.
 2) Then click on Download ZIP in the drop-down menu.
 3) Once the file is downloaded, locate it and open the ZIP file.
