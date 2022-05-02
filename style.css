@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.button {
+    font-size: 200%;
+    background-color: gray;
+}
+.button:hover {
+    color: darkred;
+}
+
+.button2 {
+    font-size: 175%;
+    background-color: lightslategray;
+}
+.button2:hover {
+    color: darkgreen;
+}
+
+#display {
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
