@@ -44,4 +44,4 @@ Cube
 10) Aesthetics
 
 # Version
-This is Version 1.0 of the Geometrical Calculator. Future versions will contain greater content.
+This is Version 2.0 of the Geometrical Calculator. Future versions will contain greater content.
