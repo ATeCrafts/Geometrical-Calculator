@@ -10,7 +10,7 @@ A calculator for basic geometrical calculations.
 6) Run this file (make sure it is not index.js, but index.html)
 
 # Features
-As of Version 1.0, the current features include:
+As of Version 2.0, the current features include:
 1) Area of:
 Circle,
 Rectangle,
@@ -35,6 +35,13 @@ Prism
 Cylinder,
 Cuboid,
 Cube
+
+5) Button Click Sound
+6) AC Key (Reload)
+7) Rounding (Decimals)
+8) New Solution Text
+9) Error Detection
+10) Aesthetics
 
 # Version
 This is Version 1.0 of the Geometrical Calculator. Future versions will contain greater content.
