@@ -45,3 +45,12 @@ Cube
 
 # Version
 This is Version 2.0 of the Geometrical Calculator. Future versions will contain greater content.
+
+# Changelog
+Version 1.0 -> Version 2.0:
+1) Button Click Sound
+2) AC Key (Reload)
+3) Rounding (Decimals)
+4) New Solution Text
+5) Error Detection
+6) Aesthetics
