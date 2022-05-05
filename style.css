@@ -2,29 +2,38 @@ body {
     background-color: black;
 }
 
+html {
+    border-color: darkgray;
+    border-style: solid;
+}
+
 h1 {
     color: white;
     text-align: center;
+    background-color: gray;
+    font-family: 'Noto Sans Math';
 }
 
 .button {
-    font-size: 200%;
+    font-size: 175%;
     background-color: gray;
+    border-color: #1F51FF;
+    border-width: 5.5px;
 }
 .button:hover {
     color: darkred;
 }
 
 .button2 {
-    font-size: 175%;
+    font-size: 150%;
     background-color: lightslategray;
-}
-.button2:hover {
-    color: darkgreen;
+    border-color: #0FFF50;
+    border-width: 4.5px;
 }
 
 #display {
     color: white;
     text-align: center;
-    font-size: 200%;
+    font-size: 150%;
+    background-color: darkgreen;
 }

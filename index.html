@@ -18,40 +18,47 @@
         <button type="button" onclick="keyVolume();" class="button"> Volume </button>
         <button type="button" onclick="keySA();" class="button"> Surface Area </button>
 
-        <br> <br> <br>
+        <br> <br>
 
-        <button type="button" onclick="keyAreaCircle();" class="button2" id="circle"> Circle </button>
-        <button type="button" onclick="keyPerimeterCircle();" class="button2" id="circleP"> Circle </button>
-        <button type="button" onclick="keyVolumeCylinder();" class="button2" id="cylinder"> Cylinder </button>
-        <button type="button" onclick="keySACylinder();" class="button2" id="cylinderSA"> Cylinder </button>
+        <button type="button" onclick="location.reload();" class="button"> AC </button>
+        <button type="button" onclick="keyRound();" class="button"> Round </button>
 
-        <br>
+        <div id="breaks">
+            <br> <br>
+        </div>
 
-        <button type="button" onclick="keyAreaRectangle();" class="button2" id="rectangle"> Rectangle </button>
-        <button type="button" onclick="keyPerimeterRectangle();" class="button2" id="rectangleP"> Rectangle </button>
-        <button type="button" onclick="keyVolumeCuboid();" class="button2" id="cuboid"> Cuboid </button>
-        <button type="button" onclick="keySACuboid();" class="button2" id="cuboidSA"> Cuboid </button>
-
-        <br>
-
-        <button type="button" onclick="keyAreaSquare();" class="button2" id="square"> Square </button>
-        <button type="button" onclick="keyPerimeterSquare();" class="button2" id="squareP"> Square </button>
-        <button type="button" onclick="keyVolumeCube();" class="button2" id="cube"> Cube </button>
-        <button type="button" onclick="keySACube();" class="button2" id="cubeSA"> Cube </button>
+        <button type="button" onclick="keyAreaCircle();" class="button2" id="circle" onmouseover="mouseOverCircle();" onmouseleave="mouseLeaveCircle();"> <div class="a"> Circle </div> <img src="./Images/Circle - Area.png" width="100px" id="circleImgA"> <img src="./Images/Circle.png" width="100px" id="circleImg"> </button>
+        <button type="button" onclick="keyPerimeterCircle();" class="button2" id="circleP" onmouseover="mouseOverCircleP();" onmouseleave="mouseLeaveCircleP();"> <div class="a"> Circle </div> <img src="./Images/Circle - Perimeter.png" width="100px" id="circleImgP"> <img src="./Images/Circle.png" width="100px" id="circleImg2"> </button>
+        <button type="button" onclick="keyVolumeCylinder();" class="button2" id="cylinder" onmouseover="mouseOverCylinder();" onmouseleave="mouseLeaveCylinder();"> <div class="a"> Cylinder </div> <img src="./Images/Cylinder - Shaded.png" width="100px" id="cylinderImgV"> <img src="./Images/Cylinder.png" width="100px" id="cylinderImg"> </button>
+        <button type="button" onclick="keySACylinder();" class="button2" id="cylinderSA" onmouseover="mouseOverCylinderSA();" onmouseleave="mouseLeaveCylinderSA();"> <div class="a"> Cylinder </div> <img src="./Images/Cylinder - Shaded.png" width="100px" id="cylinderImgSA"> <img src="./Images/Cylinder.png" width="100px" id="cylinderImg2"> </button>
 
         <br>
 
-        <button type="button" onclick="keyAreaTriangle();" class="button2" id="triangle"> Triangle </button>
-        <button type="button" onclick="keyVolumePyramid();" class="button2" id="pyramid"> Pyramid </button>
+        <button type="button" onclick="keyAreaRectangle();" class="button2" id="rectangle" onmouseover="mouseOverRect();" onmouseleave="mouseLeaveRect();"> <div class="a"> Rectangle </div> <img src="./Images/Rectangle - Area.png" width="175px" id="rectImgA"> <img src="./Images/Rectangle.png" width="175px" id="rectImg"> </button>
+        <button type="button" onclick="keyPerimeterRectangle();" class="button2" id="rectangleP" onmouseover="mouseOverRectP();" onmouseleave="mouseLeaveRectP();"> <div class="a"> Rectangle </div> <img src="./Images/Rectangle - Perimeter.png" width="175px" id="rectImgP"> <img src="./Images/Rectangle.png" width="175px" id="rectImg2"> </button>
+        <button type="button" onclick="keyVolumeCuboid();" class="button2" id="cuboid" onmouseover="mouseOverCuboid();" onmouseleave="mouseLeaveCuboid();"> <div class="a"> Cuboid </div> <img src="./Images/Cuboid - Shaded.png" width="150px" id="cuboidImgV"> <img src="./Images/Cuboid.png" width="150px" id="cuboidImg"> </button>
+        <button type="button" onclick="keySACuboid();" class="button2" id="cuboidSA" onmouseover="mouseOverCuboidSA();" onmouseleave="mouseLeaveCuboidSA();"> <div class="a"> Cuboid </div> <img src="./Images/Cuboid - Shaded.png" width="150px" id="cuboidImgSA"> <img src="./Images/Cuboid.png" width="150px" id="cuboidImg2"> </button>
 
         <br>
 
-        <button type="button" onclick="keyAreaParallelogram();" class="button2" id="parallelogram"> Parallelogram </button>
-        <button type="button" onclick="keyVolumePrism();" class="button2" id="prism"> Prism </button>
+        <button type="button" onclick="keyAreaSquare();" class="button2" id="square" onmouseover="mouseOverSquare();" onmouseleave="mouseLeaveSquare();"> <div class="a"> Square </div> <img src="./Images/Square - Area.png" width="100px" id="squareImgA"> <img src="./Images/Square.png" width="100px" id="squareImg"> </button>
+        <button type="button" onclick="keyPerimeterSquare();" class="button2" id="squareP" onmouseover="mouseOverSquareP();" onmouseleave="mouseLeaveSquareP();"> <div class="a"> Square </div> <img src="./Images/Square - Perimeter.png" width="100px" id="squareImgP"> <img src="./Images/Square.png" width="100px" id="squareImg2"> </button>
+        <button type="button" onclick="keyVolumeCube();" class="button2" id="cube" onmouseover="mouseOverCube();" onmouseleave="mouseLeaveCube();"> <div class="a"> Cube </div> <img src="./Images/Cube - Shaded.png" width="200px" id="cubeImgV"> <img src="./Images/Cube.png" width="200px" id="cubeImg"> </button>
+        <button type="button" onclick="keySACube();" class="button2" id="cubeSA" onmouseover="mouseOverCubeSA();" onmouseleave="mouseLeaveCubeSA();"> <div class="a"> Cube </div> <img src="./Images/Cube - Shaded.png" width="200px" id="cubeImgSA"> <img src="./Images/Cube.png" width="200px" id="cubeImg2"> </button>
 
         <br>
 
-        <button type="button" onclick="keyAreaTrapezium();" class="button2" id="trapezium"> Trapezium </button>
+        <button type="button" onclick="keyAreaTriangle();" class="button2" id="triangle" onmouseover="mouseOverTri();" onmouseleave="mouseLeaveTri();"> <div class="a"> Triangle </div> <img src="./Images/Triangle - Area.png" width="100px" id="triImgA"> <img src="./Images/Triangle.png" width="100px" id="triImg"> </button>
+        <button type="button" onclick="keyVolumePyramid();" class="button2" id="pyramid" onmouseover="mouseOverPyramid();" onmouseleave="mouseLeavePyramid();"> <div class="a"> Pyramid </div> <img src="./Images/Pyramid - Shaded.png" width="150px" id="pyramidImgV"> <img src="./Images/Pyramid.png" width="150px" id="pyramidImg"> </button>
+
+        <br>
+
+        <button type="button" onclick="keyAreaParallelogram();" class="button2" id="parallelogram" onmouseover="mouseOverPar();" onmouseleave="mouseLeavePar();"> <div class="a"> Parallelogram </div> <img src="./Images/Parallelogram - Area.png" width="300px" id="parImgA"> <img src="./Images/Parallelogram.png" width="300px" id="parImg"> </button>
+        <button type="button" onclick="keyVolumePrism();" class="button2" id="prism" onmouseover="mouseOverPrism();" onmouseleave="mouseLeavePrism();"> <div class="a"> Prism </div> <img src="./Images/Prism - Shaded.png" width="200px" id="prismImgV"> <img src="./Images/Prism.png" width="200px" id="prismImg"> </button>
+
+        <br>
+
+        <button type="button" onclick="keyAreaTrapezium();" class="button2" id="trapezium" onmouseover="mouseOverTrap();" onmouseleave="mouseLeaveTrap();"> <div class="a"> Trapezium </div> <img src="./Images/Trapezium - Area.png" id="trapImgA"> <img src="./Images/Trapezium.png" id="trapImg"> </button>
 
         <script src="./index.js"> </script>
     </body>
